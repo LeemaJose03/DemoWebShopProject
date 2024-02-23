@@ -1,9 +1,6 @@
 package test;
 
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.Properties;
-
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 

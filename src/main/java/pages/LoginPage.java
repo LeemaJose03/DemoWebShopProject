@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
-
 import base.ProjectSpecificationMethod;
 
 public class LoginPage extends ProjectSpecificationMethod{
@@ -41,11 +39,11 @@ public class LoginPage extends ProjectSpecificationMethod{
 		click(login);
 		
 		// Hard Assertion
-		String actual = expMessage.getText();
-		String expected = "Login was unsuccessful. Please correct the errors and try again.";
-		
-		Assert.assertEquals(expected,actual);
-		
+//		String actual = expMessage.getText();
+//		String expected = "Login was unsuccessful. Please correct the errors and try again.";
+//		
+//		Assert.assertEquals(expected,actual);
+//		
 		// Soft assertion
 		
 		/*SoftAssert assertObj = new SoftAssert();

@@ -24,6 +24,7 @@ public class Utility  {
 
 public static WebDriver driver;
 public String excelFile;
+ 
 	
 	public void browserLaunch(String browser,String url) {
 		
@@ -37,6 +38,7 @@ public String excelFile;
 			driver = new ChromeDriver();
 		}
 		
+
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
